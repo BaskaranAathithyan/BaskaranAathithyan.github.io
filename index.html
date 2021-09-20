@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body id="Mode">
+
+    <!--Nav bar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #1b6d9c;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="nav nav-tabs me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#myservices">My Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#intersts">Intersts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contact">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+            <h3 class="display-6 text-light">Baskaran Aathithyan</h3>
+        </div>
+    </nav>
+    <!--nav bar end-->
+
+    <!--Home-->
+    <section class="home" id=home>
+        <img src="pictures/bg1.jpg" style="width: 100%; height: 600px;">
+        <div class="container">
+            <div class="centered">
+                <h5 class="display-7 text-light text-muted">Hello</h1>
+                    <h1 class="display-2 text-light">I'm Aathi</h1>
+                    <h1 class="display-7 text-light text-muted">WebDesigner & Developer</h1>
+                    <div class="container text-light">
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!--Home end -->
+
+    <!--About-->
+    <section class="about" id=about>
+        <div class="container" style="padding: 40px; text-align: justify;">
+
+            <h1 class="display-4 mt-5">Profile</h1>
+            <button onclick="a1()" style="background-color: rgb(0, 0, 0); border-radius: 10px; color: aliceblue;">DarkMode</button>
+            <button onclick="a2()" style="background-color: rgb(0, 0, 0); border-radius: 10px; color: aliceblue;">LightMode</button>
+            <p>
+                Hi! My name is Aathi. I'm an Undergraduate Student of the Department of Industrial Management at the
+                University of Kelaniya, Srilanka since 2020. A friendly and highly-organize individual with skills in
+                the
+                areas of Management and Information
+                Technology.
+                Currently seeking an internship opportunity in the area(s) of Management and IT, I wish to gain
+                industrial
+                exposure and contribute to the betterment of the company to the best of my ability.
+            </p>
+            <div class="row">
+                <div class="col-4">
+                    <img src="pictures/aathi.png" style="width:300px;">
+                </div>
+                <div class="col-md-8 mt-5">
+                    <h5 class="display-7">Degree : Bsc.(Hons) in Management and Information Technology</h5>
+                    <h5 class="display-7">Age : 23</h5>
+                    <h5 class="display-7">City : Jaffna</h5>
+                    <h5 class="display-7">Phone : +(94) 75 741 0271</h5>
+                    <h5 class="display-7">Freelance : Available</h5>
+                </div>
+            </div>
+            <div class="gap-2">
+                <button class="btn btn-primary btn-lg" type="button" onclick="cv()"
+                    style="background-color: #1b6d9c; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)"><i
+                        class="fa fa-download" aria-hidden="true"></i> Download
+                    CV</button>
+                <button class="btn btn-primary btn-lg" type="button" onclick="hireme()"
+                    style="background-color: #1b6d9c; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)">
+                    <h8 id="h6" class="display-7"><i class="fa fa-mobile" aria-hidden="true"></i> Hire Me</h8>
+                </button>
+            </div>
+        </div>
+        <div class="row" style="padding-left: 50px; padding-right: 50px;">
+            <!--acadamic-->
+            <div class="col-6">
+                <h1 class="display-6 text-left text-light" style="background-color: #1b6d9c; padding-left: 10px;">
+                    Academic Background</h1>
+                <div class="row mt-3">
+                    <div class="col-4 text-center">
+                        2020 - Present
+                    </div>
+                    <div class="col-8 text-left">
+                        <h6 class="display-9">University of Kelaniya</h1></br>
+                            | Bsc.(Hons) in Management and Information Technology
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-4 text-center">
+                        2009 - 2017
+                    </div>
+                    <div class="col-8 text-left">
+                        <h6 class="display-9">St. John's College, Jaffna.</h1></br>
+                            G.C.E Advanced level
+                            Examination</br>
+                            | 1 'A' Pass and 2 'B' Pass
+
+                    </div>
+                </div>
+            </div>
+            <!--end acadamic-->
+
+            <!--profesional -->
+            <div class="col-6">
+                <h1 class="display-6 text-left text-light" style="background-color: #1b6d9c; padding-left: 10px;">
+                    Professional
+                    Qualification</h1>
+                <div class="row mt-3">
+                    <div class="col-4 text-center">
+                        2019 - 2020
+                    </div>
+                    <div class="col-8 text-center">
+                        <h6 class="display-9">BRITISH COLLEGE OF APPLIED STUDIES</h1></br>
+                            | Diploma in Information Technology
+
+                    </div>
+                </div>
+            </div>
+            <!--end professional-->
+        </div>
+
+        <!--frontend  development-->
+        <div class="row mt-5" style="padding-left: 50px; padding-right: 50px;">
+            <div class="col-6">
+                <h1 class="display-6 text-left text-light" style="background-color: #1b6d9c; padding-left: 10px;">
+                    Front End Development
+                </h1>
+                <div class="row mt-5">
+                    <div class="col-3">
+                        <h6 class="display-9">HTML</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <h6 class="display-9">CSS</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
+                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <h6 class="display-9">Java Script</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <h6 class="display-9">Bootstrap</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--frontend  development end-->
+            <!--Backend development-->
+            <div class="col-6">
+                <h1 class="display-6 text-left text-light" style="background-color: #1b6d9c; padding-left: 10px;">Back
+                    End Development</h1>
+                <div class="row mt-5">
+                    <div class="col-3">
+                        <h6 class="display-9">Java</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <h6 class="display-9">Python</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 40%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <h6 class="display-9">Node Js</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--backend development end-->
+            <!--Database 1-->
+            <div class="col-6 mt-5">
+                <h1 class="display-6 text-left text-light" style="background-color: #1b6d9c; padding-left: 10px;">
+                    Database</h1>
+                <div class="row mt-5">
+                    <div class="col-3">
+                        <h6 class="display-9">My SQL</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <h6 class="display-9">Mongo DB</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--database end-->
+
+            <div class="col-6 mt-5">
+                <h1 class="display-6 text-left text-light" style="background-color: #1b6d9c; padding-left: 10px;">
+                    UI Design</h1>
+                <div class="row mt-5">
+                    <div class="col-3">
+                        <h6 class="display-9">Photoshop CC</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <h6 class="display-9">Canva</h6>
+                    </div>
+                    <div class="col-9">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About end -->
+
+    <!--My services-->
+    <section class="MyServices" id=myservices>
+        <div class="container" style="padding: 40px; text-align: justify;">
+            <h1 class="display-4 text-center mt-5">My Services</h1>
+
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card mb-4 mb-5 bg-body rounded">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h3 class="text-light card-title text-center">Web Development</h3>
+                            <img src="pictures/webmockup.jpg" style="width: 100%; height: 15rem;">
+                            <p class="card-text text-light">I have learned about HTML, CSS, Javascript, and Bootstrap.
+                                currently, I'm
+                                learning about Node Js and React Js. I'm able to create a friendly UI webpage.
+                            </p>
+                            <a href="#" class="btn btn-light btn-block">To know more..!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card mb-4 mb-5 bg-body rounded">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h3 class="text-light card-title text-center">Designing</h3>
+                            <img src="pictures/design.jpg" style="width: 100%; height: 15rem;">
+                            <p class="card-text text-light">I'm able to make innovative and dynamic designs for Flyers,
+                                Business Cards, Invitations, Brochures, Business Proposals, Logos, and T-Shirts.
+                            </p>
+                            <a href="#" class="btn btn-light btn-block">To know more..!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card mb-4 mb-5 bg-body rounded">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h3 class="text-light card-title text-center">Programming</h3>
+                            <img src="pictures/programming.jpg" style="width: 100%; height: 15rem;">
+                            <p class="card-text text-light">I have learned about C, C++ as well as Java from
+                                programming. I'm learning more about them. then currently learning about python.
+                            </p>
+                            <a href="#" class="btn btn-light btn-block">To know more..!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--End My services-->
+
+    <!--Projects-->
+    <section class="Projects" id=projects>
+        <div class="container" style="padding: 40px; text-align: justify;">
+            <h1 class="display-4 text-center mt-5">Projects</h1>
+
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card mb-4 mb-5 bg-body rounded">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h3 class="text-light card-title text-center">Blood Management System</h3>
+                            <img src="pictures/Blood.JPG" style="width: 100%; height: 15rem;">
+                            <p class="card-text text-light">This Desktop Application is to simplify and automate the
+                                process of searching for blood in case of emergency and maintain the records of blood
+                                donors, hospitals, blood donation programs, and blood stocks in the bank.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card mb-4 mb-5 bg-body rounded">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h3 class="text-light card-title text-center">Dispense Change Project</h3>
+                            <img src="pictures/codeprojectc++.jpg" style="width: 100%; height: 15rem;">
+                            <p class="card-text text-light">This program has been developed for our first-year
+                                individual project. This is a C++ program which is that computes how to dispense change
+                                after a purchase using a sequential algorithm concept.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card mb-4 mb-5 bg-body rounded">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h3 class="text-light card-title text-center">Webpage for Covid-19</h3>
+                            <img src="pictures/web2.jpg" style="width: 100%; height: 15rem;">
+                            <p class="card-text text-light">This Covid-19 website has been including about Covid-19,
+                                Current worldwide cases, deaths, vaccinated details using HTML, CSS, JavaScript, and
+                                Bootstrap.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card mb-4 mb-5 bg-body rounded">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h3 class="text-light card-title text-center">Webpage for My Portfolio</h3>
+                            <img src="pictures/web1.JPG" style="width: 100%; height: 15rem;">
+                            <p class="card-text text-light">This is my portfolio that was develop using HTML, CSS,
+                                JavaScript, and Bootstrap.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--End Project-->
+
+    <!--Certificates-->
+    <section class="Certificates" id=certificates>
+        <div class="container" style="padding: 40px; text-align: justify;">
+            <h1 class="display-4 text-center mt-5">Certificates</h1>
+
+            <div class="row mt-5">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/email.JPG" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">Write Professional Emails</h6>
+                            <p class="card-text">Offered by Georgia Institute of Technology Through Coursera.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/css.JPG" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">Introduction to CSS 3</h6>
+                            <p class="card-text">Offered by University of Michigan Through Coursera.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/web.JPG" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">Introduction to Web Development</h6>
+                            <p class="card-text">Offered by University of California Through Coursera.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/google.JPG" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">The Fundamentals of Digital Marketing</h6>
+                            <p class="card-text">Offered by Google.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/googleads.JPG" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">Google Ads Search</h6>
+                            <p class="card-text">Offered by Google.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/linkedinfront.JPG" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">Succeeding in Web Development</h6>
+                            <p class="card-text">Offered by LinkedIn.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/linkedinpro.JPG" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">Programming Foundations</h6>
+                            <p class="card-text">Offered by LinkedIn.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/linkedinhtml.JPG" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">HTML Essential Training</h6>
+                            <p class="card-text">Offered by LinkedIn.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/Ind1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">Website Development</h6>
+                            <p class="card-text">for Participation Online Webinar Orgranised By IEEE Student Branch
+                                Jeppiaar
+                                Engineering College,India.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/ind2.png" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">Cyber Security</h6>
+                            <p class="card-text">for Participation Online Webinar Orgranised By IEEE Student Branch
+                                Jeppiaar
+                                Engineering College,India.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/ind3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">Introduction to Deep Learning</h6>
+                            <p class="card-text">for Participation Online Webinar Orgranised By IEEE Student Branch
+                                Jeppiaar
+                                Engineering College,India.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/ind4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">Professional Communication</h6>
+                            <p class="card-text">for Participation Online Webinar Orgranised By IEEE Student Branch
+                                Jeppiaar
+                                Engineering College,India.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/soloc++.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">C++ Tutorial Course</h6>
+                            <p class="card-text">Offered by SoloLearn.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/solocss.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">CSS Fundamentals</h6>
+                            <p class="card-text">Offered by SoloLearn.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/solohtml.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">HTML Fundamentals</h6>
+                            <p class="card-text">Offered by SoloLearn.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pictures/solojava.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: #1b6d9c;">
+                            <h6 class="display-7">JAVA Tutorial Course</h6>
+                            <p class="card-text">Offered by SoloLearn.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--End Certificates-->
+
+    <!--Intersts-->
+    <section class="Intersts" id=intersts>
+        <div class="container" style="padding: 40px; text-align: justify;">
+            <h1 class="display-4 text-center mt-5">Intersts</h1>
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-head text-light text-center" style="background-color: #1b6d9c;">
+                                <h6 class="display-6">Crafting <i class="fa fa-gift" aria-hidden="true"></i></h6>
+                            </div>
+                            <div class="card-body" style="background-color: #6daaca;">
+                                <p>Coivd-19 brought me as a crafty lover. I make craft items like Flower vases, Frames,
+                                    Gift
+                                    boxes, Bouquets using wastage papers on a small budget in lockdown. it becomes a
+                                    hobby
+                                    for
+                                    me since then.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-head text-light text-center" style="background-color: #1b6d9c;">
+                                <h6 class="display-6">Movies <i class="fa fa-film" aria-hidden="true"></i></h6>
+                            </div>
+                            <div class="card-body" style="background-color: #6daaca;">
+                                <p>I am much interested in watching movies and Web Series especially action and thriller
+                                    in
+                                    more than three languages. It helps me to know more languages and different
+                                    cultures.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Intersts-->
+
+    <!--Contact-->
+    <section class="Contact" id=contact>
+        <div class="container" style="padding: 40px; text-align: justify; ">
+            <h1 class="display-4 text-center mt-5">Contact me</h1>
+        </div>
+        <div class="container text-light" style="padding: 20px; background-color: #2590ce; ">
+            <form id="f" action="message.html" method="POST" onsubmit="return validate()">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group mt-3">
+                            <label for="name">Full name</label>
+                            <input type="text" class="form-control" id="name" name="name"
+                                placeholder="Enter your Full name!" />
+                            <p id="pl"></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group mt-3">
+                            <label for="mobile">Mobile Number</label>
+                            <input type="number" class="form-control" id="mobile" placeholder="+xxx xxx xxx" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group mt-3">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="abc@gmail.com" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group mt-3">
+                            <label for="email">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject"
+                                placeholder="Enter your Subject Heading!" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <label for="comment">Comments:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+                <div class="form-group mt-5">
+                    <div>
+                        <input type="submit" style="background-color: #123a52; color: aliceblue;" value="Send Message">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--End Contact-->
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-light mt-5" style="background-color: #1b6d9c;">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Aathi's view
+                        </h6>
+                        <p>
+                            Here I made a my Blog Webpage using HTML, CSS, Javascript and Bootstrap.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Social Media
+                        </h6>
+
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i>"POOMAGAL", Kopay Centre, Kopay, Jaffna</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            baskaranaathi11@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i>+(94) 75 741 0271</p>
+                        <p><i class="fas fa-print me-3"></i>+(94) 76 122 0311</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: #123a52">
+            © 2021 Copyright:
+            Designed by Aathi
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
